@@ -1,7 +1,7 @@
 ## Build Queue Popup Plugin 
 This plugin overwrites the orginal Build Queue:
 
-![image](https://user-images.githubusercontent.com/39845648/132471879-1ed166c1-71c9-4456-9a37-ed5245599f3f.png)
+![image](/uploads/51e2de52c856c371af45f68062168c96/image.png)
 
 By clicking the area around the '\*' sign, a pop-up will show: 
 
