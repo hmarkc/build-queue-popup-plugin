@@ -1,7 +1,7 @@
 ## Build Queue Popup Plugin 
 This plugin overwrites the orginal Build Queue:
 
-![image](/uploads/51e2de52c856c371af45f68062168c96/image.png)
+![image](https://gitlab.com/AmpereComputing/toolchain/jenkins/uploads/51e2de52c856c371af45f68062168c96/image.png)
 
 By clicking the area around the '\*' sign, a pop-up will show: 
 
