@@ -14,9 +14,12 @@ public class SimpleQueueWidget extends Widget {
     private final static Logger logger = Logger.getLogger(SimpleQueueWidget.class);
 
     public String htmlToString(String html) {
-        logger.debug(html);
-        String message = html.replace("<br>", " \\n ");
-        logger.debug(message);
-        return message;
+        return html
+                .replace("<br>", "\\n")
+                .replace("&amp;", "&")
+                .replace("&quot;", "\"")
+                .replace("&lt;", "<")
+                .replace("&gt;", ">")
+                .replace("&nbsp;", " ");
     }
 }

@@ -58,9 +58,17 @@ public class SimpleQueueUpdateAction implements RootAction {
             return view!=null?view.getViewName():"";
         }
     }
+
     public String htmlToString(String html) {
-        return html.replace("<br>", " \\n ");
+        return html
+                .replace("<br>", "\\n")
+                .replace("&amp;", "&")
+                .replace("&quot;", "\"")
+                .replace("&lt;", "<")
+                .replace("&gt;", ">")
+                .replace("&nbsp;", " ");
     }
+
     public String getIconFileName() {
         return null;
     }
